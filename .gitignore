@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Flutter/Dart specific
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.idea/
+.vscode/
+
+# Android
+**/android/.gradle
+**/android/build/
+**/android/gradle/
+**/android/app/.externalNativeBuild
+**/android/app/build/
+**/android/app/intermediates/
+**/android/app/src/main/assets/flutter_assets/
+**/android/app/src/main/flutter_service_worker.js
+**/android/app/src/main/flutter_service_worker.stamp
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.xcworkspace/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web
+**/webdev/
+
+# TensorFlow Lite model files
+**/*.tflite
